@@ -53,10 +53,9 @@ namespace DeckOfCards
 
         private static void PrintUsage()
         {
-            Console.WriteLine("The \"Deck Of Cards\" application displays values represent a deck of cards with operations to shuffle the deck and to deal one to the maximimum number of cards remaining in the deck.\n\n" +
-                "Respond to the prompts to from the application to draw a number of cards, shuffle / reshuffle, or get the remaining number of cards.\n" +
+            Console.WriteLine("The \"Deck Of Cards\" application displays values represent a deck of cards with operations to shuffle\nthe deck and to deal one to the maximimum number of cards remaining in the deck.\n\n" +
                 "Using the following options:\nType a number greater than zero to display the drawn cards\nType 'I' to display the number of cards remaining in the deck\n" +
-                "Type 'R' to reshuffle the deck\nType 'Q' to quit");
+                "Type 'R' to reshuffle the deck\nType 'Q' to quit\n");
         }
     }
 }
