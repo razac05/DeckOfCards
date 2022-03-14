@@ -42,6 +42,7 @@ namespace DeckOfCards
         {
             get
             {
+                //Comment for giggles via Safari browser
                 return this.cards!.Count;
             }
         }
